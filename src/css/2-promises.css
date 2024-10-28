@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-left: 156px;
+    }         
+
+h1 {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+.input {
+    margin-top: 2px;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.fieldset {
+    margin-bottom: 24px;
+    width: 360px;
+        height: 78px;
+        border-radius: 4px;
+            stroke-width: 1px;
+            stroke: #808080;
+}
+
+.label-input {
+    display: inline-block;
+        align-items: center;
+            padding-right: 10px;
+            padding-left: 40px;
+            padding-top: 10px;
+            
+                font-size: 16px;
+                
+                color: #2e2f42;
+}
+
+.label-input:hover {
+    stroke-width: 1px;
+        stroke: #000;
+}
+
+.button {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        border-radius: 8px;
+            padding: 8px 16px;
+            width: 360px;
+            height: 40px;
+            background: #4e75ff;
+            font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                color: #fff;
+                border: none;
+}
+
+.button:hover {
+    background: #6c8cff;
+}
+
+
+

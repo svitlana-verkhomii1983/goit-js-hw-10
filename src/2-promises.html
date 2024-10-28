@@ -4,18 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
     <title>Promises</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <main>
+    <form class="form">
+      <label class="label-text">
+        <h1>Delay (ms)</h1>
+        <input class="input" type="number" name="delay" required />
+      </label>
     
-  <main>
-     <div class="container">
-     <a class="back-link" href="./index.html">Go back</a>
-     <h1 class="main-title">Promises</h1>
-     </div>
-  </main>
-
+      <fieldset class="fieldset">
+        <legend>State</legend>
+        <label class="label-input">
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label class="label-input">
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+    
+      <button class="button" type="submit">Create notification</button>
+    </form>
+   </main>
 
         <script type="module" src="./js/2-promises.js"></script>
   </body>
